@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AttributeGroupBox">
+      <HintPath>..\..\..\AttributeGroupBox\AttributeGroupBox\bin\Debug\netstandard2.0\AttributeGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributePanelLoad">
+      <HintPath>..\..\..\AttributePanelLoad\AttributePanelLoad\bin\Debug\netstandard2.0\AttributePanelLoad.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeTabControl">
+      <HintPath>..\..\..\AttributeTabControl\AttributeTabControl\bin\Debug\netstandard2.0\AttributeTabControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
